@@ -1,0 +1,32 @@
+# Hosting state and local version-control metadata
+.openai/
+.git/
+.sites-runtime/
+.sites-checkout/
+
+# Local credentials and environment files
+.env
+.env.*
+.netrc
+.npmrc
+.pypirc
+.git-credentials
+.gitconfig
+*credentials*.json
+*token*.json
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Local tools and operating-system metadata
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
